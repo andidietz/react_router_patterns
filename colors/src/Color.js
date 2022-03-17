@@ -5,7 +5,9 @@ const Color = ({color}) => {
   return (
     <div style={{backgroundColor: color}}>
       <h2>{color}</h2>
+      <p>
       <Link to="/">Home</Link>
+      </p>
     </div>
   )
 }
